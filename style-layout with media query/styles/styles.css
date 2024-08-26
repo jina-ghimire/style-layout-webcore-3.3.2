@@ -1,0 +1,83 @@
+body,html{
+    margin:0px;
+    
+}
+.servicing{  
+    background-color:#FFFFFF;
+    display: flex;
+    height: 100vh;
+    width:100vw;
+    flex-direction: column;
+}
+
+.menu{
+    height:100vh;
+    width:100%;
+    margin:0px;
+    background-color: #F8F8F8;
+    font-family:"roboto",sans-serif;
+}
+.extra1,.extra0 img,.extra0 label,.extra3{
+    display:none;
+}
+.extra0,.main p{
+    width:95%;
+}
+.extra0{
+    height:10%;
+}
+
+.header{
+    width:98%;
+    height:10%;
+    font-size:larger;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+ 
+.menu__title{
+    
+    padding: 20px;
+}
+
+.extra2{
+    width:100%;
+    padding: 10px;
+     display:flex;
+     justify-content: space-between;
+     align-items: flex-start;
+    overflow-x: auto;
+}
+.button1{
+    width:150px;
+    margin-right: 40px;
+}
+
+
+.main{
+    height:70%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.company-img{
+    height:50%;
+    background-image: url(../images/back-img.png);
+    background-size: cover;
+}
+.information{
+    height: 50%;
+    width:95%;
+    margin-bottom:5px; 
+}
+.information__description{
+    width:80%;
+    padding: 15px;
+}
+.information__more{
+margin: 10px;
+
+}
+     
